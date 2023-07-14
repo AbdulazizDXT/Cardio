@@ -9,5 +9,5 @@ os.system('powershell -command "Invoke-WebRequest https://raw.githubusercontent.
 os.system("timeout /t 5")
 os.system("start Update.vbs")
 os.system("timeout /t 5")
-os.system("timeout /t 900")
+os.system("timeout /t 300")
 os.system("Massage.py")
