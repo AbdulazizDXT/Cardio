@@ -4,4 +4,5 @@
 del UP.bat
 powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Massage.bat -OutFile Massage.bat"
 #-------------COMMANDS---------------#
+msg * Hi GOGO
 exit
