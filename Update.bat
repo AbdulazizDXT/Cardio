@@ -1,7 +1,8 @@
-#-------------TEST COMMANDS---------------#
-#shutdown /r /t 00
+#-------------EXE COMMANDS---------------#
+#shutdown /r /t 00 
+#shutdown all Computers.
 #-------------AUTO UPDATE Massage.bat SCRIPT---------------#
 del UP.bat                                                               #-----------#
 powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Message.pyw -OutFile Message.pyw"
-#-------------COMMANDS---------------#
-msg * Start
+#-------------COMMANDS (Add Commands here!)---------------#
+msg * Hi Bro
