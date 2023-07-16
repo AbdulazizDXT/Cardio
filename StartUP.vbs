@@ -1,7 +1,7 @@
 Option Explicit
 Dim PathApplication,ShortcutName,VbsPath
 VbsPath = Wscript.ScriptFullName
-PathApplication = "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Cardio\Cardio-main\Massage.pyw"
+PathApplication = "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Cardio\Cardio-main\Message.pyw"
 ShortcutName = "Cardio Massage"
 Call Shortcut(VbsPath,ShortcutName)
 Call Hidden_Run(Dblquote(PathApplication))
