@@ -5,5 +5,9 @@ A program for institutions to manage their devices remotely and alert employees 
 - -------------------------------------------------------------------------------
 ![Cardio](https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Picture.png)
 - --------------------------------------------------------------------------------
-
-
+- After withdrawing the project to your personal account, you must adjust some important things to ensure that the program works without problems.
+- First, modify ```Message.pyw``` file as shown in the picture :
+- In the red box, modify the word ```AbdulazizDXT``` to your exact username. (Below this tag ```#---------#```)
+- -------------------------------------------------------------------------------
+![Cardio](https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Picture-1.png)
+- --------------------------------------------------------------------------------
