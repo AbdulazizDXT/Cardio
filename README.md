@@ -11,3 +11,7 @@ A program for institutions to manage their devices remotely and alert employees 
 - -------------------------------------------------------------------------------
 ![Cardio](https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Picture-1.png)
 - --------------------------------------------------------------------------------
+- Also do the same in the ```Update.bat```.
+- -------------------------------------------------------------------------------
+![Cardio](https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Picture-2.png)
+- --------------------------------------------------------------------------------
