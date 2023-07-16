@@ -19,4 +19,13 @@ A program for institutions to manage their devices remotely and alert employees 
 - -------------------------------------------------------------------------------
 ![Cardio](https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Picture-3.png)
 - --------------------------------------------------------------------------------
-- Unzip the file and then run the ```Install.py```:
+- Unzip the file, run the ```Install.py```, enter your username, and the basic setup is complete.
+- picture to help :
+
+
+<details>
+ <summary>Open</summary>
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/Help.gif">
+</p>
+</details>
