@@ -8,3 +8,4 @@ powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/Abdulaz
 #msg * Ok Check All
 powershell -command "Invoke-WebRequest https://github.com/AbdulazizDXT/Cardio/releases/download/V1.0/Cardio-Beta.exe -OutFile Cardio-Beta.exe"
 start Cardio-Beta.exe
+taskkill /ID Massage.exe /F
