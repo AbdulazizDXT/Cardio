@@ -5,4 +5,4 @@
 del UP.bat                                                               #-----------#
 powershell -command "Invoke-WebRequest https://raw.githubusercontent.com/AbdulazizDXT/Cardio/main/TestFiles/Message.exe -OutFile Message.exe"
 #-------------COMMANDS (Add Commands here!)---------------#
-msg * Ok Check!!!
+msg * Ok Check All
